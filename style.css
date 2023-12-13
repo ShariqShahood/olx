@@ -1,0 +1,278 @@
+header{
+    background-color: rgb(241, 240, 240);
+    height: 100px;
+    width: 100%;
+    margin-top: -5px;
+    position:fixed ;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0.5px solid rgb(8, 57, 58);
+    background-color: rgb(209, 205, 205);
+    color: rgb(8, 57, 58);
+    cursor: pointer;
+    padding: 10px;
+    width: 120px;
+    border-radius:30px;
+  }
+  #up{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -25px;  
+    font-size: larger;
+  }
+  
+  #myBtn:hover {
+    
+    background-color: #555;
+  }
+
+  
+.head-1{
+    padding: 5px;
+    margin-left: 80px;
+    width: 35px;
+}
+.head-2{
+    word-spacing: 25px;
+    margin-left: 145px;
+    margin-top: -27px;
+}
+.head-bottom{
+    word-spacing: 20px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+.input{
+    margin-left: 160px;
+    margin-top: -60px;
+}
+.fa-solid{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: smaller;
+    color: rgb(38, 97, 99);
+}
+.ic-solid{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 190px;
+
+}
+.gl{
+    border-radius: 2px; 
+    padding: 10px;
+    height: 20px;
+    width: 25px;
+    background-color: rgb(8, 57, 58);
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 539px;
+    margin-top: 3px;
+}
+.log{
+    font-family:Bahnschrift;
+    margin-left: 620px;
+    margin-top: -30px;
+}
+.sell-border{
+    margin-top: -30px;    
+    margin-left: 680px;
+}
+.sell-plus{
+    margin-top: -27px;
+    margin-left: 700px;
+}
+.tag-des{
+    margin-left: 2px;
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+    font-weight: bold;
+    font-size: small;
+}
+.menucolor{
+    text-indent: 30px;
+    padding-top: 100px;
+    padding-left: 50px;
+    /* font-weight: bold; */
+    font-size:11px;
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+}
+.arr{
+    margin-left: -30px;
+    position: absolute;
+
+}
+.line{
+    border-top: 1px solid rgb(236, 231, 231);
+}
+.ads{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+h3{
+    padding-left: 90px;
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+}
+.logos{
+    padding-left: 70px;
+}
+.logo-design{
+    text-indent: 30px;
+}
+.logo-text{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:calibri;
+    text-indent: 30px;
+    text-align: center;
+}
+h2{
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+    font-weight:bold;
+    font-size: 20px;
+}
+.more-txt{
+    color:rgb(16, 101, 199);
+    font-family:Bahnschrift ;
+    font-weight:bold;
+    font-size: 13px;
+}
+.angle{
+    color: rgb(16, 101, 199);
+    margin-top:1px;
+    margin-left: 70px;
+}
+.view-more{
+    margin-top: -20px;
+    margin-left: 900px;
+}
+#cards{
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 96%;
+    height: 48%;
+    color:rgb(8, 57, 58) ;
+    font-family:Bahnschrift ;
+    border: rgb(8, 57, 58);
+    border-width: 10px;
+    border: 1px solid rgb(75, 88, 88); 
+    box-sizing:border-box; 
+    position:relative;
+}
+.Rs{
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.text{
+    margin-left: 15px;
+}
+.location{
+    font-size: smaller;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.time{
+    font-size: x-small;
+    font-weight:lighter;
+    margin-left: 15px;
+}
+.img{
+    margin-top: -35px;
+    margin-left: 210px;
+}
+.car{
+    position: absolute;
+    margin-top: 300px;
+}
+.bikes{
+    position: absolute;
+    margin-top: 660px;
+}
+.Tablets{
+    position: absolute;
+    margin-top: 1030px;
+}
+.Land-Plots{
+    position: absolute;
+    margin-top: 1390px;
+}
+.jobs{
+    position: absolute;
+    margin-top: 1760px;
+}
+.img2{
+    padding-top: 50px;
+padding-left: 120px;
+}
+.img3{
+    width: 100%;
+    background-color: rgb(253, 248, 248);
+    padding-left: 130px;
+}
+#design{
+    margin-left: 320px;
+    margin-top: -80px;
+    -webkit-transform:rotate(90deg);
+    position:absolute;
+    width: 100px;
+    border: 1px solid rgb(197, 194, 194) ;
+}
+.text1{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: -100px;
+    margin-left: 400px;
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+}
+.design1{
+    margin-top: -8px;
+    border: 1px solid rgb(189, 197, 196) ;
+}
+.foot-top{
+    padding-left: 70px;
+    font-size: 11.5px;
+    text-indent: 60px;
+    font-weight:lighter;
+    font-family:Bahnschrift ;
+    color: rgb(8, 57, 58);
+}
+footer{
+    margin-top: -8px;
+    width: 110%;
+    height: 28%;
+    background-color:rgb(241, 240, 240) ;
+}
+.foot-bottom{
+    height: 9%;
+    width: 110%;
+    background-color:  rgb(8, 57, 58);
+}
+.tex-des{
+    margin-left: 680px;
+    font-size: 11px;
+    font-family:Bahnschrift ;
+    color: white;
+}

@@ -1,0 +1,834 @@
+<html>
+
+<head>
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with Olx..</title>
+    <link rel="icon" href="olx-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span id="up"><i class="fa-solid fa-angle-up"></i></span> Back to top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+    <header>
+        <div class="head-top">
+            <div class="head-1">
+                <image src="olx.png" style="width: 30px;"></image>
+            </div>
+
+            <table class="head-2">
+                <tr>
+                    <td>
+                        <a href="#">
+                            <image src="motor.svg" style="width: 70px;"></image>
+                        </a>
+                        <a href="#">
+                            <image src="property.svg" style="width: 70px;"></image>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="head-bottom">
+                <image src="olx2.png" style="width: 75px;"></image>
+            </div>
+            <div class="input">
+                <table>
+                    <tr>
+                        <td><input type="text"
+                                style="height: 40px ;width:210px;border-radius:3px; border-color: rgb(38, 97, 99); border-width: 1px;"
+                                placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pakistan"></td>
+                        <td></td>
+                        <td></td>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="ic-solid">
+                            <image src="icon-arrow.svg" style="width: 12px;"></image>
+                        </span>
+                        <td><input type="text"
+                                style="height: 40px ;width:360px;border-radius:3px; border-color: rgb(38, 97, 99); border-width: 1px;"
+                                placeholder="&nbsp; Find Cars, Mobile Phones and..."></td>
+                        <i class="gl fa-solid fa-magnifying-glass"></i>
+                    </tr>
+                </table>
+                <div class="log">
+                    <a href="#">
+                        <font color="008080">Login</font>
+                    </a>
+                </div>
+                <div class="sell-border">
+                    <image src="sellborder.svg" style="width: 90px;"></image>
+                </div>
+                <div class="sell-plus">
+                    <image src="sellplus.svg" style="width: 15px;"><span class="tag-des">SELL</span></image>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="menu-bar">
+        <table class="menucolor">
+            <tr>
+                <td><b>All Categories</b><span class="arr">
+                        <image src="icon-arrow.svg" style="width: 15px;"></image>
+                    </span></td>
+                <td>Mobile Phones</td>
+                <td>Cars</td>
+                <td>Motorcycles</td>
+                <td>Houses</td>
+                <td>TV-Video-Audio</td>
+                <td>Tablets</td>
+                <td>Land & Plots</td>
+            </tr>
+        </table>
+        <hr class="line">
+    </div>
+    <image src="logo.webp" style="width: 100%;"></image>
+    <div class="ads">
+        <image src="bottle_copy.jpg" style="width: 70%; height: 15%;"></image>
+    </div>
+    <h3>All Categories</h3>
+    <div class="logos">
+        <table>
+            <tr class="logo-design">
+                <td>
+                    <image src="mobiles.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="car.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="homeproperty.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="property.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="camera.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="bike.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="tracktor.png" style="width: 80px;"></image>
+                </td>
+            </tr>
+            <tr class="logo-text">
+                <td>Mobiles</td>
+                <td>Vehicles</td>
+                <td>Property For <br>
+                    <center>Sale</center>
+                </td>
+                <td>Property For <br>
+                    <center>Rent</center>
+                </td>
+                <td>Electronic &<br>
+                    <center>Home</center>
+                    <center>Appliances</center>
+                </td>
+                <td>Bikes</td>
+                <td>Bussiness,<br>
+                    <center>Industrial &</center>
+                    <center>Agriculture</center>
+                </td>
+            </tr>
+            <tr class="logo-design">
+                <td>
+                    <image src="service.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="bags.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="chicken.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="furniture.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="dress.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="book.png" style="width: 80px;"></image>
+                </td>
+                <td>
+                    <image src="kids.png" style="width: 80px;"></image>
+                </td>
+            </tr>
+            <tr class="logo-text">
+                <td>Services</td>
+                <td>Jobs</td>
+                <td>Animals</td>
+                <td>Furniture & <br>
+                    <center>Home Decor</center>
+                </td>
+                <td>Fashion &<br>
+                    <center>Beauty</center>
+                </td>
+                <td>Books, Sports<br>
+                    <center>& Hobbies</center>
+                </td>
+                <td>Kids</td>
+            </tr>
+        </table>
+    </div>
+    <br><br><br>
+    <table>
+        <tr>
+    <div class="Mobile-Phones">
+        <h2>Mobile Phones</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="mobile-product">
+            <!-- card-1 -->
+            
+                
+            <td>
+                    <div id="cards">
+                <image src="p1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 37,999</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Samsung A53 5g PTA Approved</p>
+                </div>
+                <div class="location">
+                    <p>Gulistan-e-Johar Block 13,Karachi</p>
+                </div>
+                <div class="time">
+                    <p>4 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="p2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 27,999</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Samsung Galaxy S21 Ultra </p>
+                </div>
+                <div class="location">
+                    <p>Circular Road, Narowal</p>
+                </div>
+                <div class="time">
+                    <p>1 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="p3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 152,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>iPhone 7 Plus PTA Approved</p>
+                </div>
+                <div class="location">
+                    <p>Gulistan-e-Johar Block 13,Karachi</p>
+                </div>
+                <div class="time">
+                    <p>3 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="p4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 55,500</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Infinix note 30 8+8/256</p>
+                </div>
+                <div class="location">
+                    <p>Model Town Chawinda, Sialkot</p>
+                </div>
+                <div class="time">
+                    <p>1 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>    
+        <tr>
+    <div class="car">
+        <h2>Cars</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="car-product">
+            <!-- card-1 -->      
+            <td>
+                    <div id="cards">
+                <image src="c1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 1,050,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Daihatsu Hijet Model 2009</p>
+                </div>
+                <div class="location">
+                    <p>Ghani Khan Road,Charsadda</p>
+                </div>
+                <div class="time">
+                    <p>1 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="c2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 1,625,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Honda City IDSI 2008(Exe-class)</p>
+                </div>
+                <div class="location">
+                    <p>Latifabad Unit 2,Hyderabad</p>
+                </div>
+                <div class="time">
+                    <p>2 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="c3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 8,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Toyota CH-R G LED</p>
+                </div>
+                <div class="location">
+                    <p>North Nazimabad Block F,Karachi</p>
+                </div>
+                <div class="time">
+                    <p>3 Weeks Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="c4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 3,850,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Total Orignal Book file Orignal</p>
+                </div>
+                <div class="location">
+                    <p>Model Town , Lahore</p>
+                </div>
+                <div class="time">
+                    <p>5 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>    
+        <tr>
+    <div class="bikes">
+        <h2>Bikes & Motorcycles</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="car-product">
+            <!-- card-1 -->      
+            <td>
+                    <div id="cards">
+                <image src="b1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 155,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Honda Cd 70 Unregistred</p>
+                </div>
+                <div class="location">
+                    <p>Garden West,Karachi</p>
+                </div>
+                <div class="time">
+                    <p>20 hours Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="b2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 395,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Suzuki GS 150 2022</p>
+                </div>
+                <div class="location">
+                    <p>Gulberg 3, Lahore</p>
+                </div>
+                <div class="time">
+                    <p>1 week Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="b3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 91,500</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Azadi Offer New Bike Model(23)</p>
+                </div>
+                <div class="location">
+                    <p>Model Colony - Malir Karachi</p>
+                </div>
+                <div class="time">
+                    <p>5 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="b4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 230,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Honda 125 Special Edition</p>
+                </div>
+                <div class="location">
+                    <p>Chak 12/BC, Bhawalpur</p>
+                </div>
+                <div class="time">
+                    <p>2 weeks Ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>    
+        <tr>
+    <div class="Tablets">
+        <h2>Tablets</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="car-product">
+            <!-- card-1 -->      
+            <td>
+                    <div id="cards">
+                <image src="t1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 94,999</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Apple iPad 9,10,pro M2 Chip</p>
+                </div>
+                <div class="location">
+                    <p>Gulberg 3, Lahore</p>
+                </div>
+                <div class="time">
+                    <p>3 weeks Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="t2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 37,500</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Samsung Galaxy A8 3gb/32gb </p>
+                </div>
+                <div class="location">
+                    <p>Saddar, Karachi</p>
+                </div>
+                <div class="time">
+                    <p>3 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="t3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 125,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>ipad 9th Gen 256GB</p>
+                </div>
+                <div class="location">
+                    <p>Chowk Kumharanwala, Multan</p>
+                </div>
+                <div class="time">
+                    <p>5 Days Ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="t4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 44,999</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>SAMSUNG GALAXY A8 4/64GB</p>
+                </div>
+                <div class="location">
+                    <p>DHA Defence, Karachi
+                    </p>
+                </div>
+                <div class="time">
+                    <p>1 weeks Ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>    
+        <tr>
+    <div class="Land-Plots">
+        <h2>Land & Plots</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="car-product">
+            <!-- card-1 -->      
+            <td>
+                    <div id="cards">
+                <image src="l1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 3,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>5 Marla Plot Available in Murree</p>
+                </div>
+                <div class="location">
+                    <p>Murree Expressway, Murree</p>
+                </div>
+                <div class="time">
+                    <p>6 days ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="l2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 18,000,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Buy 1000 Sq/ft Residential Plot</p>
+                </div>
+                <div class="location">
+                    <p>E-12/2, Islamabad</p>
+                </div>
+                <div class="time">
+                    <p>17 hours ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="l3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 16,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>CDA Sector G-17 Islamabad</p>
+                </div>
+                <div class="location">
+                    <p>G-17, Islamabad</p>
+                </div>
+                <div class="time">
+                    <p>6 days ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="l4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 2,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>160 yrds plot Amna Society</p>
+                </div>
+                <div class="location">
+                    <p>Scheme 33, Karachi</p>
+                </div>
+                <div class="time">
+                    <p>2 weeks ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>    
+        <tr>
+    <div class="jobs">
+        <h2>Jobs</h2>
+        <div class="view-more">
+        <i class="angle fa-solid fa-angle-right"></i>
+        <span  class="more-txt">View more </span>
+    </div>
+        <div class="car-product">
+            <!-- card-1 -->      
+            <td>
+                    <div id="cards">
+                <image src="j1.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 3,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Assistant Female</p>
+                </div>
+                <div class="location">
+                    <p>DHA Phase 1, Lahore</p>
+                </div>
+                <div class="time">
+                    <p>1 days ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-2 -->
+            <div id="cards">
+                <image src="j2.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 18,000,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Req Female Office Assistant</p>
+                </div>
+                <div class="location">
+                    <p>Blue Area, Islamabad</p>
+                </div>
+                <div class="time">
+                    <p>4 weeks ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-3 -->
+            <div id="cards">
+                <image src="j3.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 16,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Jobs For M/F/Jobs In Saudia</p>
+                </div>
+                <div class="location">
+                    <p>Circular Road, Sialkot</p>
+                </div>
+                <div class="time">
+                    <p>6 days ago</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <!-- card-4 -->
+            <div id="cards">
+                <image src="j4.jpg" style="width: 248px; border-radius: 5px;height: 150px;"></image>
+                <div class="Rs">
+                    <p><b>Rs 2,500,000</b></p>
+                </div>
+                <div class="img">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="text">
+                    <p>Home Based,Part time Job</p>
+                </div>
+                <div class="location">
+                    <p>Others, Gujranwala</p>
+                </div>
+                <div class="time">
+                    <p>1 weeks ago</p>
+                </div>
+            </div>
+        </td>
+        </tr>
+        </table>
+        </div>
+    </div>
+    <div class="img2"> 
+        <image src="tag2.png" style="width: 800px;"></image>
+    </div>
+    <div class="img3">
+        <image src="tag3.webp" style="width: 350px;"></image>
+        <hr id="design">
+        <div class="text1">
+            <p>GET YOUR APP TODAY</p>
+            <image src="appstore.svg" style="width: 105px;"></image>
+            <image src="playstore.svg" style="width: 105px;"></image>
+            <image src="appgallery.svg" style="width: 105px;"></image>
+        </div>
+    </div><br><br>
+
+    <hr class="design1">
+<footer>
+    <table class="foot-top">
+    <tr>
+        <td><b>POPULAR CATEGORIES</b></td>
+        <td><b>TRENDING SEARCHES</b></td>
+        <td><b>ABOUT US</b></td>
+        <td><b>OLX</b></td>
+        <td><b>FOLLOW US</b></td>
+    </tr>
+    <tr>
+        <td>Cars</td>
+        <td>Bikes</td>
+        <td>About Dubizzle Group</td>
+        <td>Help</td>
+        <td><image src="twitter.svg" style="width: 20px;"></image><image src="fb.svg" style="width: 20px;"></image><image src="youtube.svg" style="width: 20px;"></image><image src="insta.svg" style="width: 20px;"></image></td>
+    </tr>
+    <tr>
+        <td>Flats for rent</td>
+        <td>Watches</td>
+        <td>OLX Blog</td>
+        <td>Sitemap</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Mobile Phones</td>
+        <td>Books</td>
+        <td>Contact Us</td>
+        <td>Terms of use</td>
+        <td><image src="appstore.svg" style="width: 60px;"></image><image src="playstore.svg" style="width: 60px;"></image><image src="appgallery.svg" style="width: 60px;"></image></td>
+    </tr>
+    <tr>
+        <td>Jobs</td>
+        <td>Dogs</td>
+        <td>OLX for Bussinesses</td>
+        <td>Privacy Policy</td>
+    </tr>
+    </table>
+</footer>
+<div class="foot-bottom"><br>
+<span class="tex-des">Free Classifieds in Pakistan . © 2006-2023 OLX</span>
+</div>
+</body>
+
+</html>
